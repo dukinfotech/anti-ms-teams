@@ -1,14 +1,15 @@
 {
   "name": "anti-ms-teams",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "dist/main.js",
   "repository": "https://github.com/dukinfotech/anti-ms-teams.git",
   "author": "Doan Duc <dukinfotech@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "start": "npx tsc && electron ."
   },
   "devDependencies": {
-    "electron": "^31.0.1"
+    "electron": "31.0.1",
+    "typescript": "^5.4.5"
   }
 }
