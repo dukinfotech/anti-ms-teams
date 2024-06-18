@@ -2,7 +2,7 @@
 import { app, BrowserWindow } from 'electron';
 import path from 'path';
 
-const mainURL = path.resolve('./render/index.html');
+const mainURL = path.resolve('./src/render/index.html');
 
 const createWindow = () => {
   const win = new BrowserWindow({
